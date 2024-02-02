@@ -3,14 +3,14 @@
 OutputThreadInfo();
 Stopwatch timer = Stopwatch.StartNew();
 
-/*
-SectionTitle("Running methods synchronously on one thread.");
-MethodA();
-MethodB();
-MethodC();
-*/
+//
+// SectionTitle("Running methods synchronously on one thread.");
+// MethodA();
+// MethodB();
+// MethodC();
 
-/*
+
+
 SectionTitle("Running methods asynchronously on multiple threads.");
 //timer.Restart();
 
@@ -21,7 +21,7 @@ Task taskC = Task.Run(MethodC);
 
 Task[] tasks = { taskA, taskB, taskC };
 Task.WaitAll(tasks);
-*/
+
 
 /*
 SectionTitle("Passing the result of one task as an input into another.");
@@ -35,11 +35,11 @@ Task<string> taskServiceThenSProc = Task.Factory
 WriteLine($"Result: {taskServiceThenSProc.Result}");
 */
 
-//WriteLine($"{timer.ElapsedMilliseconds:#,##0}ms elapsed.");
+WriteLine($"{timer.ElapsedMilliseconds:#,##0}ms elapsed.");
 
-SectionTitle("Nested and child tasks");
-
-Task outerTask = Task.Factory.StartNew(OuterMethod);
-outerTask.Wait();
-WriteLine("Console app is stopping.");
+// SectionTitle("Nested and child tasks");
+//
+// Task outerTask = Task.Factory.StartNew(OuterMethod);
+// outerTask.Wait();
+// WriteLine("Console app is stopping.");
 
