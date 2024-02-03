@@ -7,16 +7,15 @@
         <Nullable>enable</Nullable>
         <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     </PropertyGroup>
-    
-    
+
 
     <ItemGroup>
-        <Using Include="System.Console" Static="true" />
+        <Using Include="System.Console" Static="true"/>
     </ItemGroup>
-    
-    
+
 
     <ItemGroup>
-      <PackageReference Include="Npgsql" Version="8.0.1" />
+        <PackageReference Include="Npgsql" Version="8.0.1"/>
+        <PackageReference Include="Dapper" Version="2.1.28"/>
     </ItemGroup>
 </Project>

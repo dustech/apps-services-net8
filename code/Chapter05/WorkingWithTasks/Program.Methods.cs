@@ -48,7 +48,7 @@
 
     Task innerTask = Task.Factory.StartNew(InnerMethod,
       TaskCreationOptions.AttachedToParent);
-    
+    Thread.Sleep(2000);
     TaskTitle("Outer method finished.");
   }
 
