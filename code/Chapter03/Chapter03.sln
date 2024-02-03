@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.Tests", "Northwind.Common.EntityModels.Tests\Northwind.Common.EntityModels.Tests.csproj", "{D7262F60-4762-4649-8EBC-DF8C52E63D57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console.EFCorePSql", "Northwind.Console.EFCorePSql\Northwind.Console.EFCorePSql.csproj", "{ED979FDF-FFDB-45CD-9B84-D9F790AA2043}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D7262F60-4762-4649-8EBC-DF8C52E63D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7262F60-4762-4649-8EBC-DF8C52E63D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7262F60-4762-4649-8EBC-DF8C52E63D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED979FDF-FFDB-45CD-9B84-D9F790AA2043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED979FDF-FFDB-45CD-9B84-D9F790AA2043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED979FDF-FFDB-45CD-9B84-D9F790AA2043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED979FDF-FFDB-45CD-9B84-D9F790AA2043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
