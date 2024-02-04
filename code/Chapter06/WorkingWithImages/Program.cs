@@ -1,4 +1,6 @@
 ﻿using System.Diagnostics;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Processing;
 
 string imagesFolder = Path.Combine(
   Environment.CurrentDirectory, "images");
