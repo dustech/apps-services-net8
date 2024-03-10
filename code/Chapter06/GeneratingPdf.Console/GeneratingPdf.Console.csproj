@@ -11,6 +11,11 @@
   <ItemGroup>
     <Using Include="System.Console" Static="true" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="QuestPDF" Version="2023.12.4" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.88.7"/>
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="7.3.0.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\GeneratingPdf.Document\GeneratingPdf.Document.csproj" />
